@@ -7,6 +7,9 @@ dependencies:
   '@astrojs/rss':
     specifier: ^4.0.7
     version: 4.0.7
+  '@fontsource-variable/space-grotesk':
+    specifier: ^5.0.19
+    version: 5.0.19
   '@resvg/resvg-js':
     specifier: ^2.6.2
     version: 2.6.2
@@ -747,6 +750,10 @@ packages:
     resolution: {integrity: sha512-BsWiH1yFGjXXS2yvrf5LyuoSIIbPrGUWob917o+BTKuZ7qJdxX8aJLRxs1fS9n6r7vESrq1OUqb68dANcFXuQQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     dev: true
+
+  /@fontsource-variable/space-grotesk@5.0.19:
+    resolution: {integrity: sha512-uYyY1jqW+71NkPCp0P6dwEcV6uO4MEiAZ5JylhrHbMMA7C2N0uO6EZUnq7rOMZT4e58Izia5Hy5HPZ18dan3ew==}
+    dev: false
 
   /@humanwhocodes/module-importer@1.0.1:
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
