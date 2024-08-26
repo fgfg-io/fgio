@@ -9,6 +9,7 @@ import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SITE, SOCIALS } from "@config";
+import Emoji from "astro-emoji";
 
 const posts = await getCollection("blog");
 
@@ -23,19 +24,21 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>We Make Apps for Our Own Use.</h1>
-      <p>
-        We’re a team focused on creating small but powerful productivity apps. We believe in working together without rigid hierarchies, valuing everyone’s unique skills and ideas. Our goal is to let creativity and good ideas lead the way, and to build digital tools that boost productivity while fostering a sense of shared ownership. Come join us in shaping a new, collaborative approach to productivity.
+      <h1>
+        We Make Apps to Use Ourselves.
+        <Emoji
+          symbol="🖖🏼"
+          label="hand with fingers split between middle and ring fingers"
+        />
+      </h1>
+      <p class="max-w-2xl text-xl">
+        We’re a collective focused on creating small but powerful productivity
+        apps. We believe in working together without rigid hierarchies, valuing
+        everyone’s unique skills and ideas. Our goal is to let creativity and
+        good ideas lead the way, and to build digital tools that boost
+        productivity while fostering a sense of shared ownership. Come join us
+        in shaping a new, collaborative approach to productivity.
       </p>
-      <!-- <p>
-        Read the blog posts or check
-        <LinkButton
-          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
-      </p> -->
       <p class="pt-4">
         <a
           target="_blank"

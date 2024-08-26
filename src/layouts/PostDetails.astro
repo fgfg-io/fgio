@@ -49,9 +49,9 @@ const layoutProps = {
 <Layout {...layoutProps}>
   <Header />
 
-  <div class="mx-auto flex w-full max-w-3xl justify-start px-2">
+  <div class="mx-auto flex w-full max-w-3xl justify-start">
     <button
-      class="focus-outline mb-2 mt-8 flex hover:opacity-75"
+      class="focus-outline mb-2 mt-8 flex hover:opacity-75 items-start"
       onclick="(() => (history.length === 1) ? window.location = '/' : history.back())()"
     >
       <svg xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ const layoutProps = {
       pubDatetime={pubDatetime}
       modDatetime={modDatetime}
       size="lg"
-      className="my-2"
+      className="my-2 ml-12"
     />
     <article id="article" class="prose mx-auto mt-8 max-w-3xl">
       <Content />
@@ -100,10 +100,10 @@ const layoutProps = {
 
 <style>
   main {
-    @apply mx-auto w-full max-w-3xl px-4 pb-12;
+    @apply mx-auto w-full max-w-4xl px-4 pb-12;
   }
   .post-title {
-    @apply text-2xl font-semibold text-skin-accent;
+    @apply text-6xl font-semibold text-skin-accent ml-12;
   }
 </style>
 
