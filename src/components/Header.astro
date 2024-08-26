@@ -139,7 +139,13 @@ const { activeNav } = Astro.props;
     @apply absolute py-1 text-xl font-semibold sm:static sm:text-2xl;
   }
   .logo svg {
-    @apply w-auto h-auto fill-current;
+    @apply w-auto h-auto fill-current transform-gpu transition-all hover:fill-skin-accent;
+  }
+  .logo svg path {
+    @apply transform-gpu transition-all
+  }
+  .logo svg:hover path:nth-child(5) {
+    @apply -rotate-45 translate-x-3 translate-y-7 origin-center;
   }
   .hamburger-menu {
     @apply self-end p-2 sm:hidden;
