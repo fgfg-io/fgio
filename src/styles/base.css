@@ -3,22 +3,39 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --fgfg-bh-0: 0;
+    --fgfg-bh-1: 18;
+    --fgfg-bh-2: calc(18 * 2);
+    --fgfg-bh-3: calc(18 * 3);
+    --fgfg-bh-4: calc(18 * 4);
+    --fgfg-bh-5: calc(18 * 5);
+    --fgfg-bh-6: calc(18 * 6);
+    --fgfg-bh-7: calc(18 * 7);
+    --fgfg-bh-8: calc(18 * 8);
+    --fgfg-bh-9: calc(18 * 9);
+    --fgfg-bh-10: calc(18 * 10);
+    --fgfg-bh-11: calc(18 * 11);
+    --fgfg-bh-12: calc(18 * 12);
+    --fgfg-bh-13: calc(18 * 13);
+    --fgfg-bh-14: calc(18 * 14);
+  }
   :root,
   html[data-theme="light"] {
-    --color-fill: 251, 254, 251;
-    --color-text-base: 40, 39, 40;
-    --color-accent: 0, 108, 172;
-    --color-card: 230, 230, 230;
-    --color-card-muted: 205, 205, 205;
-    --color-border: 236, 233, 233;
+    --color-fill: var(--fgfg-bh-7), var(--fgfg-bh-14), var(--fgfg-bh-14);
+    --color-text-base: var(--fgfg-bh-2), var(--fgfg-bh-2), var(--fgfg-bh-2);
+    --color-accent: var(--fgfg-bh-1), var(--fgfg-bh-1), var(--fgfg-bh-7);
+    --color-card: var(--fgfg-bh-13), var(--fgfg-bh-13), var(--fgfg-bh-13);
+    --color-card-muted: var(--fgfg-bh-11), var(--fgfg-bh-11), var(--fgfg-bh-11);
+    --color-border: var(--fgfg-bh-1), var(--fgfg-bh-1), var(--fgfg-bh-7);
   }
   html[data-theme="dark"] {
-    --color-fill: 33, 39, 55;
-    --color-text-base: 234, 237, 243;
-    --color-accent: 255, 107, 1;
-    --color-card: 52, 63, 96;
-    --color-card-muted: 138, 51, 2;
-    --color-border: 171, 75, 8;
+    --color-fill: var(--fgfg-bh-0), var(--fgfg-bh-3), var(--fgfg-bh-3);
+    --color-text-base: var(--fgfg-bh-13), var(--fgfg-bh-14), var(--fgfg-bh-14);
+    --color-accent: var(--fgfg-bh-7), var(--fgfg-bh-14), var(--fgfg-bh-14);
+    --color-card: var(--fgfg-bh-3), var(--fgfg-bh-5), var(--fgfg-bh-5);
+    --color-card-muted: var(--fgfg-bh-8), var(--fgfg-bh-2), var(--fgfg-bh-0);
+    --color-border: var(--fgfg-bh-7), var(--fgfg-bh-14), var(--fgfg-bh-14);
   }
   #sun-svg,
   html[data-theme="dark"] #moon-svg {

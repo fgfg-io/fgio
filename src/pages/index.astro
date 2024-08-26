@@ -23,33 +23,11 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Hello!</h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="rss-link"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" class="rss-icon"
-          ><path
-            d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"
-          ></path><path
-            d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"
-          ></path><circle cx="6" cy="18" r="2"></circle>
-        </svg>
-        <span class="sr-only">RSS Feed</span>
-      </a>
-
+      <h1>We Make Apps for Our Own Use.</h1>
       <p>
-        We are a collective dedicated to crafting small, impactful productivity apps with a core belief in bottom-up, 
-        non-hierarchical principles. Our philosophy centers on harnessing the collective intelligence and creativity 
-        of teams, allowing each member to contribute their unique skills and perspectives. 
-        We believe in ideas flowing freely and decisions made on the merit of ideas. We want to enable people to build 
-        digital products that not only enhance productivity but also embody the spirit of empowerment and shared ownership. 
-        Join us in redefining the future of productivity with a focus on collaboration, creativity, and collective success.
+        We’re a team focused on creating small but powerful productivity apps. We believe in working together without rigid hierarchies, valuing everyone’s unique skills and ideas. Our goal is to let creativity and good ideas lead the way, and to build digital tools that boost productivity while fostering a sense of shared ownership. Come join us in shaping a new, collaborative approach to productivity.
       </p>
-      <p>
+      <!-- <p>
         Read the blog posts or check
         <LinkButton
           className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
@@ -57,12 +35,29 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         >
           README
         </LinkButton> for more info.
+      </p> -->
+      <p class="pt-4">
+        <a
+          target="_blank"
+          href="/rss.xml"
+          class="rss-link"
+          aria-label="rss feed"
+          title="RSS Feed"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="rss-icon"
+            ><path
+              d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"
+            ></path><path
+              d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"
+            ></path><circle cx="6" cy="18" r="2"></circle>
+          </svg>
+          <span class="sr-only">RSS Feed</span>
+        </a>
       </p>
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
             <Socials />
           </div>
         )
