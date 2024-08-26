@@ -10,6 +10,9 @@ dependencies:
   '@fontsource-variable/dm-sans':
     specifier: ^5.0.7
     version: 5.0.7
+  '@fontsource-variable/source-code-pro':
+    specifier: ^5.0.20
+    version: 5.0.20
   '@resvg/resvg-js':
     specifier: ^2.6.2
     version: 2.6.2
@@ -756,6 +759,10 @@ packages:
 
   /@fontsource-variable/dm-sans@5.0.7:
     resolution: {integrity: sha512-m1M71SAXBUO3SFTl3gtUvlP/ahH5sIrnX+Ag8LWKH5HnMVNs4b5ZjNuXbk9MlbmvMmCaKjxdbo6baVTXtzgbyg==}
+    dev: false
+
+  /@fontsource-variable/source-code-pro@5.0.20:
+    resolution: {integrity: sha512-ib79xMlEi9TJbeV7p0PoqCKVgFRuisQgYOluIa27cWChpBjTBQqK2A5Trs9zTmjuS3toz5S3H4f5s9v9fMfE3w==}
     dev: false
 
   /@humanwhocodes/module-importer@1.0.1:
