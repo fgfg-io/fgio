@@ -10,9 +10,6 @@ dependencies:
   '@fontsource-variable/dm-sans':
     specifier: ^5.0.7
     version: 5.0.7
-  '@fontsource-variable/space-grotesk':
-    specifier: ^5.0.19
-    version: 5.0.19
   '@resvg/resvg-js':
     specifier: ^2.6.2
     version: 2.6.2
@@ -759,10 +756,6 @@ packages:
 
   /@fontsource-variable/dm-sans@5.0.7:
     resolution: {integrity: sha512-m1M71SAXBUO3SFTl3gtUvlP/ahH5sIrnX+Ag8LWKH5HnMVNs4b5ZjNuXbk9MlbmvMmCaKjxdbo6baVTXtzgbyg==}
-    dev: false
-
-  /@fontsource-variable/space-grotesk@5.0.19:
-    resolution: {integrity: sha512-uYyY1jqW+71NkPCp0P6dwEcV6uO4MEiAZ5JylhrHbMMA7C2N0uO6EZUnq7rOMZT4e58Izia5Hy5HPZ18dan3ew==}
     dev: false
 
   /@humanwhocodes/module-importer@1.0.1:

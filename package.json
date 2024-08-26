@@ -16,7 +16,6 @@
     "@astrojs/check": "^0.9.3",
     "@astrojs/rss": "^4.0.7",
     "@fontsource-variable/dm-sans": "^5.0.7",
-    "@fontsource-variable/space-grotesk": "^5.0.19",
     "@resvg/resvg-js": "^2.6.2",
     "astro": "^4.14.2",
     "astro-emoji": "^1.2.0",
