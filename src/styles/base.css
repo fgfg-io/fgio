@@ -30,7 +30,7 @@
     --color-border: var(--fgfg-bh-1), var(--fgfg-bh-1), var(--fgfg-bh-7);
   }
   html[data-theme="dark"] {
-    --color-fill: var(--fgfg-bh-0), var(--fgfg-bh-3), var(--fgfg-bh-3);
+    --color-fill: var(--fgfg-bh-0), var(--fgfg-bh-1), var(--fgfg-bh-1);
     --color-text-base: var(--fgfg-bh-13), var(--fgfg-bh-14), var(--fgfg-bh-14);
     --color-accent: var(--fgfg-bh-7), var(--fgfg-bh-14), var(--fgfg-bh-14);
     --color-card: var(--fgfg-bh-1), var(--fgfg-bh-4), var(--fgfg-bh-4);
